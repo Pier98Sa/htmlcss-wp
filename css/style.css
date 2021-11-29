@@ -6,9 +6,9 @@
 .pagina{
     width: 80%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Fine regole comuni*/
-
 /*Regole Header*/
 header{
     margin-bottom: 20px;
@@ -20,8 +20,8 @@ header img{
 }
 /*Regole menù dell'header*/
 .menu{
-    padding-top: 50px;
-    
+    padding-top: 20px;
+
 }
 .menu li {
     display: inline;
@@ -39,14 +39,16 @@ header img{
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    position: relative;
 }
 .banner{
     height: 500px;
-    margin-bottom: 20px; 
+    background-color: #e1d67a;
+    margin-bottom: 40px;
     position: relative;
+    border-radius: 8px;
 }
-.banner .overlay{
+
+.overlay{
     content: "";
     position: absolute;
     top: 0;
@@ -57,22 +59,41 @@ header img{
     z-index: 2;
     border-radius: 8px;
 }
+.banner .paragrafo-banner{
+    position: absolute;
+    left: 40px;
+    bottom: 70px;
+    color: #fff;
+    z-index: 3;  
+}
+.paragrafo-banner h2{
+    font-size: 2em;
+}
+
 /* Inizio Regole parte centrale della pagina*/
-div.parte-centrale{
-    background-color: #0186ff;
-}
  /* regole del titolo del paragrafo*/
-.titolo-paragrafo{
-    height: 100px;
-    background-color: #abcfe7;
+ .titolo-paragrafo p{
+     color: #808080;
+ }
+/*regole sidebar di sinistra*/
+.img-sidebar-sx{
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
 }
+.img-sidebar-sx img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
 /*regole delle sidebar*/
 aside.sidebar{
     width: 20%;
-    height: 550px;
-    background-color: #abcfe7;
     margin: 20px 0px;
     float: left;
+    position: relative;
 }
 /*regole della sezione articolo tra le due sidebar*/
 section.articolo{
