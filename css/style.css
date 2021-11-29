@@ -75,18 +75,7 @@ header img{
  .titolo-paragrafo p{
      color: #808080;
  }
-/*regole sidebar di sinistra*/
-.img-sidebar-sx{
-    width: 100%;
-    border-radius: 8px;
-    position: relative;
-}
-.img-sidebar-sx img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-    position: relative;
-}
+
 
 /*regole delle sidebar*/
 aside.sidebar{
@@ -106,6 +95,36 @@ aside.sidebar{
 .paragrafo h3{
     font-weight: lighter;
 }
+
+/*regole sidebar di sinistra*/
+.img-sidebar-sx{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+}
+.img-sidebar-sx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+/*regole sidebar di destra*/
+.img-sidebar-dx{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+}
+.img-sidebar-dx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+}
 /*regole della sezione articolo tra le due sidebar*/
 section.articolo{
     width: 56%;
@@ -114,14 +133,14 @@ section.articolo{
 }
 .paragrafo-centrale{
     width: 100%;
-    height: 251px;
+    height: 250px;
     border-radius: 8px;
     position: relative;
 }
 
 .paragrafo-centrale img{
     width: 100%;
-    height: 251px;
+    height: 250px;
     object-fit: cover;
     border-radius: 8px;
     position: relative;
