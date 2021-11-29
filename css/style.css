@@ -153,7 +153,12 @@ div.parte-centrale::after{
 }
 /*regole footer*/
 footer{
-    height: 75px;
-    background-color: #8801fe;
-    margin-top: 20px;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer .heart::after{
+    content: "\2764";
+    color: #f00;
 }
