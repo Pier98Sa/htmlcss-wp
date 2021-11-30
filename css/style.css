@@ -125,9 +125,10 @@ aside.sidebar{
 }
 /*regole della sezione articolo tra le due sidebar*/
 section.articolo{
-    width: 56%;
+    width: 60%;
     float: left;
-    margin: 20px 2%;
+    margin: 20px 0px;
+    padding: 0 20px;
 }
 .paragrafo-centrale{
     width: 100%;
