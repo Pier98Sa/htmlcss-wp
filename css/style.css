@@ -57,7 +57,6 @@ main .banner img{
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.2);
-    z-index: 2;
     border-radius: 8px;
 }
 main .banner .paragrafo-banner{
@@ -66,7 +65,6 @@ main .banner .paragrafo-banner{
     bottom: 70px;
     color: #fff;
     width: 50%;
-    z-index: 3;  
 }
 .paragrafo-banner h2{
     font-size: 2em;
