@@ -127,7 +127,6 @@ aside.sidebar{
 section.articolo{
     width: 60%;
     float: left;
-    margin: 20px 0px;
     padding: 0 20px;
 }
 .paragrafo-centrale{
@@ -135,6 +134,7 @@ section.articolo{
     height: 250px;
     border-radius: 8px;
     position: relative;
+    margin: 20px 0px;
 }
 
 .paragrafo-centrale img{
